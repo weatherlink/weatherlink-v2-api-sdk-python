@@ -1,1 +1,1 @@
-# weatherlink-v2-api-sdk-python
+# WeatherLink v2 API SDK for Python
