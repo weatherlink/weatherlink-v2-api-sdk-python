@@ -19,7 +19,7 @@ class SignatureCalculator:
             api_key: the API Key
             api_secret: the API Secret
             api_request_timestamp: the Unix timestamp for when the API request is being made
-            station_ids: integer list of up to 100 station ID numbers
+            station_ids: optional integer list of up to 100 station ID numbers
 
         Returns:
             The API Signature string
@@ -39,7 +39,7 @@ class SignatureCalculator:
             api_key: the API Key
             api_secret: the API Secret
             api_request_timestamp: the Unix timestamp for when the API request is being made
-            node_ids: integer list of up to 100 node ID numbers
+            node_ids: optional integer list of up to 100 node ID numbers
 
         Returns:
             The API Signature string
@@ -59,7 +59,7 @@ class SignatureCalculator:
             api_key: the API Key
             api_secret: the API Secret
             api_request_timestamp: the Unix timestamp for when the API request is being made
-            sensor_ids: integer list of up to 100 sensor ID numbers
+            sensor_ids: optional integer list of up to 100 sensor ID numbers
 
         Returns:
             The API Signature string
@@ -79,7 +79,7 @@ class SignatureCalculator:
             api_key: the API Key
             api_secret: the API Secret
             api_request_timestamp: the Unix timestamp for when the API request is being made
-            sensor_ids: integer list of up to 100 sensor ID numbers
+            sensor_ids: optional integer list of up to 100 sensor ID numbers
 
         Returns:
             The API Signature string
