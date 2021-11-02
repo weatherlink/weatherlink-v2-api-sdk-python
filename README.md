@@ -1,5 +1,6 @@
 # WeatherLink v2 API SDK for Python
 
+[![PyPI](https://img.shields.io/pypi/v/weatherlink-v2-api-sdk?color=blue&style=flat-square)](https://pypi.org/project/weatherlink-v2-api-sdk/)
 ![Python Support](https://img.shields.io/badge/python-3%2B-blue?color=blue&style=flat-square)
 
 [![Apache 2.0 License](https://img.shields.io/github/license/weatherlink/weatherlink-v2-api-sdk-java?color=blue&style=flat-square)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
