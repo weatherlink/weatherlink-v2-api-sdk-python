@@ -12,7 +12,7 @@ class SignatureCalculator:
         ```
     """
 
-    def calculate_stations_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, station_ids: list[int] = []) -> str:
+    def calculate_stations_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, station_ids: list = []) -> str:
         """Computes the API Signature for an API call to /stations given the specific parameters.
 
         Args:
@@ -32,7 +32,7 @@ class SignatureCalculator:
             parameters_to_hash["station-ids"] = ",".join(map(str, station_ids))
         return self.__calculate_signature(api_secret, parameters_to_hash)
 
-    def calculate_nodes_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, node_ids: list[int] = []) -> str:
+    def calculate_nodes_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, node_ids: list = []) -> str:
         """Computes the API Signature for an API call to /nodes given the specific parameters.
 
         Args:
@@ -52,7 +52,7 @@ class SignatureCalculator:
             parameters_to_hash["node-ids"] = ",".join(map(str, node_ids))
         return self.__calculate_signature(api_secret, parameters_to_hash)
 
-    def calculate_sensors_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, sensor_ids: list[int] = []) -> str:
+    def calculate_sensors_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, sensor_ids: list = []) -> str:
         """Computes the API Signature for an API call to /sensors given the specific parameters.
 
         Args:
@@ -72,7 +72,7 @@ class SignatureCalculator:
             parameters_to_hash["sensor-ids"] = ",".join(map(str, sensor_ids))
         return self.__calculate_signature(api_secret, parameters_to_hash)
 
-    def calculate_sensor_activity_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, sensor_ids: list[int] = []) -> str:
+    def calculate_sensor_activity_signature(self, api_key: str, api_secret: str, api_request_timestamp: int, sensor_ids: list = []) -> str:
         """Computes the API Signature for an API call to /sensor-activity given the specific parameters.
 
         Args:
