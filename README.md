@@ -4,7 +4,7 @@
 ![Python Support](https://img.shields.io/pypi/pyversions/weatherlink-v2-api-sdk?color=blue&style=flat-square)
 
 [![Apache 2.0 License](https://img.shields.io/pypi/l/weatherlink_v2_api_sdk?color=blue&style=flat-square)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
-[![WeatherLink Developers Discord](https://img.shields.io/discord/882722161641554021?color=blue&label=chat&style=flat-square)](https://discord.gg/WCEdd2S4Ve)
+[![WeatherLink Developers Discord](https://img.shields.io/discord/882722161641554021?color=blue&label=chat&style=flat-square)](https://discord.gg/D4rCKRqpEM)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/github/weatherlink/weatherlink-v2-api-sdk-python?color=blue&style=flat-square)](https://lgtm.com/projects/g/weatherlink/weatherlink-v2-api-sdk-python/context:python)
 
 
