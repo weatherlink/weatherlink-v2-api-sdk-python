@@ -12,5 +12,5 @@ This project is just getting started and this is the initial release focused on 
 
 ## Communication
 
-* [WeatherLink Developer Discord](https://discord.gg/WCEdd2S4Ve), please direct questions to the Python SDK channel under the WeatherLink v2 API category
+* [WeatherLink Developer Discord](https://discord.gg/D4rCKRqpEM), please direct questions to the Python SDK channel under the WeatherLink v2 API category
 * [GitHub Issues](https://github.com/weatherlink/weatherlink-v2-api-sdk-python/issues) for bug reports
