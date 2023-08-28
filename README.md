@@ -1,3 +1,5 @@
+# Note: This SDK is retired, the WeatherLink v2 API no longer requires the use of an API Signature parameter thus making the single function this SDK provided no longer necessary.
+
 # WeatherLink v2 API SDK for Python
 
 [![PyPI](https://img.shields.io/pypi/v/weatherlink-v2-api-sdk?color=blue&style=flat-square)](https://pypi.org/project/weatherlink-v2-api-sdk/)
